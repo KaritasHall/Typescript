@@ -13,7 +13,7 @@ export interface PersonProps {
 }
 
 // Person is defined as a Functional component (FC) that takes in the PersonProps interface
-// The specifying which properties I want to take in
+// Then declaring which properties I want to take in
 // I am specifying that Person is going to return either a JSX element or null (this is optional)
 export const Person: FC<PersonProps> = ({
   name,
